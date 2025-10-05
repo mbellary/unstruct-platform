@@ -1,0 +1,36 @@
+[submodule "scripts/modules/file-loader"]
+	path = scripts/modules/file-loader
+	url = https://github.com/mbellary/file-loader.git
+[submodule "scripts/modules/pdf-processor"]
+	path = scripts/modules/pdf-processor
+	url = https://github.com/mbellary/pdf-processor.git
+[submodule "scripts/modules/text-extractor"]
+	path = scripts/modules/text-extractor
+	url = https://github.com/mbellary/text-extractor.git
+[submodule "scripts/modules/text-embedder"]
+	path = scripts/modules/text-embedder
+	url = https://github.com/mbellary/text-embedder.git
+[submodule "scripts/modules/text-rag"]
+	path = scripts/modules/text-rag
+	url = https://github.com/mbellary/text-rag.git
+[submodule "scripts/modules/infra"]
+	path = scripts/modules/infra
+	url = https://github.com/mbellary/unstruct-infra-terraform.git
+[submodule "modules/file-loader"]
+	path = modules/file-loader
+	url = https://github.com/mbellary/file-loader.git
+[submodule "modules/pdf-processor"]
+	path = modules/pdf-processor
+	url = https://github.com/mbellary/pdf-processor.git
+[submodule "modules/text-extractor"]
+	path = modules/text-extractor
+	url = https://github.com/mbellary/text-extractor.git
+[submodule "modules/text-embedder"]
+	path = modules/text-embedder
+	url = https://github.com/mbellary/text-embedder.git
+[submodule "modules/text-rag"]
+	path = modules/text-rag
+	url = https://github.com/mbellary/text-rag.git
+[submodule "modules/infra"]
+	path = modules/infra
+	url = https://github.com/mbellary/unstruct-infra-terraform.git

@@ -1,7 +1,6 @@
 .DS_Store
 .env
 .env.*
-modules/**
 !modules/.gitkeep
 dist/
 node_modules/

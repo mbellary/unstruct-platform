@@ -2,12 +2,12 @@
 set -euo pipefail
 
 # ---- REPOSITORY URLs ----
-INGESTION_URL="git@github.com:mbellary/file-loader.git"
-PROCESSOR_URL="git@github.com:mbellary/pdf-processor.git"
-EXTRACTION_URL="git@github.com:mbellary/text-extractor.git"
-EMBEDDINGS_URL="git@github.com:mbellary/text-embedder.git"
-SEARCH_URL="git@github.com:mbellary/text-rag.git"
-INFRA_URL="git@github.com:mbellary/unstruct-infra-terraform.git"  # TODO
+INGESTION_URL="https://github.com/mbellary/file-loader.git"
+PROCESSOR_URL="https://github.com/mbellary/pdf-processor.git"
+EXTRACTION_URL="https://github.com/mbellary/text-extractor.git"
+EMBEDDINGS_URL="https://github.com/mbellary/text-embedder.git"
+SEARCH_URL="https://github.com/mbellary/text-rag.git"
+INFRA_URL="https://github.com/mbellary/unstruct-infra-terraform.git"
 
 mkdir -p modules
 

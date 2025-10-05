@@ -1,0 +1,54 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: file-loader
+  annotations:
+    github.com/project-slug: mbellary/file-loader
+spec:
+  type: service
+  lifecycle: production
+  owner: data-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pdf-processor
+  annotations:
+    github.com/project-slug: mbellary/pdf-processor
+spec:
+  type: service
+  lifecycle: production
+  owner: data-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: text-extractor
+  annotations:
+    github.com/project-slug: mbellary/text-extractor
+spec:
+  type: service
+  lifecycle: production
+  owner: data-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: text-embedder
+  annotations:
+    github.com/project-slug: mbellary/text-embedder
+spec:
+  type: service
+  lifecycle: production
+  owner: data-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: text-rag
+  annotations:
+    github.com/project-slug: mbellary/text-rag
+spec:
+  type: service
+  lifecycle: production
+  owner: data-platform

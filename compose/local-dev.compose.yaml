@@ -1,0 +1,31 @@
+services:
+  file-loader:
+    image: ghcr.io/mbellary/file-loader:${TAG:-main}
+    env_file: .env.example
+    depends_on: [redis, localstack]
+  pdf-processor:
+    image: ghcr.io/mbellary/pdf-processor:${TAG:-main}
+    env_file: .env.example
+    depends_on: [redis, localstack]
+  text-extractor:
+    image: ghcr.io/mbellary/text-extractor:${TAG:-main}
+    env_file: .env.example
+    depends_on: [redis, localstack]
+  text-embedder:
+    image: ghcr.io/mbellary/text-embedder:${TAG:-main}
+    env_file: .env.example
+    depends_on: [redis, localstack]
+  text-rag:
+    image: ghcr.io/mbellary/text-rag:${TAG:-main}
+    env_file: .env.example
+    depends_on: [redis, localstack]
+
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
+
+  localstack:
+    image: localstack/localstack
+    environment:
+      - SERVICES=s3,sqs,dynamodb
+    ports: ["4566:4566"]

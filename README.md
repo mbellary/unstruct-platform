@@ -150,5 +150,10 @@ Keep track of design decisions under `docs/adr/` — for example:
 
 ---
 
+### 🤖 Powered by [ChatGPT](https://openai.com/chatgpt)
+_This project was documented and scaffolded with assistance from OpenAI’s ChatGPT._
+
+---
+
 > © 2025 Mohammed Ali — Unstruct Platform  
 > _Meta-repository for cross-service orchestration, documentation, and developer onboarding._

@@ -1,5 +1,7 @@
 # Unstruct Platform — Meta Repository
 
+[![Powered by ChatGPT](https://img.shields.io/badge/Powered%20by-ChatGPT-10a37f?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/chatgpt)
+
 A single place to understand, navigate, and operate the **entire Unstruct system**:  
 **file-loader → pdf-processor → text-extractor → text-embedder → text-rag**, plus **Terraform infra**.
 

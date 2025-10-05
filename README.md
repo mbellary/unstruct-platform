@@ -31,31 +31,7 @@ A single place to understand, navigate, and operate the **entire Unstruct system
 ## 🧩 System Architecture
 
 ```mermaid
-flowchart LR
-  subgraph Source
-    U[(Users)]
-    Drop[(S3 Uploads)]
-  end
-
-  U -->|Documents| Loader
-  Drop --> Loader
-
-  Loader[file-loader]\n(S3 + SQS) --> Processor[pdf-processor]\n(ECS Tasks)
-  Processor --> Extractor[text-extractor]\n(asyncio + parallelism)
-  Extractor --> Embedder[text-embedder]\n(Bedrock/Titan)
-  Embedder -->|Vectors| RAG[text-rag]\n(OpenSearch/Redis)
-  RAG --> U
-
-  subgraph Infra
-    VPC[(VPC)]
-    TF[(Terraform)]
-    Redis[(Redis)]
-    OS[(OpenSearch)]
-    DDB[(DynamoDB)]
-    S3[(S3)]
-    SQS[(SQS)]
-  end
-  TF --- VPC & Redis & OS & DDB & S3 & SQS
+IN-PROGRESS
 ```
 
 ---

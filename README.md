@@ -30,9 +30,7 @@ A single place to understand, navigate, and operate the **entire Unstruct system
 
 ## 🧩 System Architecture
 
-```mermaid
 IN-PROGRESS
-```
 
 ---
 
